@@ -1,0 +1,17 @@
+Package Management Basics
+
+1. Introduction:
+
+2. A Dependency:
+- Define:
++ A denpendency is a third-party bit of software
++ Probably written by someone else, ideally solves a single problem for you
++ Might include sub-dependencies that you didn't explicitly install
+- A simple example of a useful Dependency that your project might need is some code to calculate relative dates.
+- A project dependency can be an entire javascript library and framwork - such as Vue js, React... Or a very small utility like our human - readable date library. Or can be a command line tool.
+- Without modern build tools, dependencies might be included in your projects by <script>. BUT this might not work right out of the box.
+- In addition, what happens if you find a better tool that you want to use instead of the current one, or a new version of your dependencies that you want to update to? This is not too painful for a couple of dependencies. But in larger project with many dependencies is a challenge.
+- It makes more reasons to use a package manager such as npm.
+
+3. What exactly is a package manager?
+- Define: A package manager is a system that will manage your dependencies 
